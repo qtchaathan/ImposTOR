@@ -1,4 +1,6 @@
-<center><pre>
+<p align="center">
+    <span style="color:#FF4500;">
+<pre>
 ██▓ ███▄ ▄███▓ ██▓███    ▒█████     ██████  █████████▓ ▒█████   ██▀███  
 ▓██▒ ▓██▒▀█▀ ██ ▒▓██░  ██▒ ▒██▒  ██▒▒ ██    ▒   ▓██▒▓▒ ▒██▒  ██▒ ▓██ ▒ ██▒
 ▒██▒ ▓██    ▓██ ░▓██░ ██▓▒ ▒██░  ██▒░  ▓██▄   ▒ ▓██░▒ ░▒██░  ██▒ ▓██ ░▄█ ▒
@@ -9,7 +11,8 @@
  ▒ ░░      ░   ░ ░       ░ ░ ░ ▒  ░  ░   ░    ░       ░ ░░ ▒     ░░   ░ 
  ░         ░                ░ ░        ░                ░ ░      ░     
 </pre>
-</center>
+    </span>
+</p>
 
 <p align="center">
 Cross-Distro Transparent Proxy through Tor
@@ -42,7 +45,7 @@ For more information, please read the [Tor Project wiki](https://gitlab.torproje
 
 ```term
 git clone [https://github.com/yourusername/impostor](https://github.com/yourusername/impostor)
-
+```
 Dependencies:
 
 The script requires the following packages:
