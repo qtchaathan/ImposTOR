@@ -27,6 +27,20 @@ For more information, please read the [Tor Project wiki](https://gitlab.torproje
 
 ---
 
+## Security
+
+Read this section carefully before using ImposTOR.
+
+ImposTOR is produced independently from the Tor anonymity software and carries no guarantee from the Tor Project about its quality or suitability.
+
+Transparent Torification protects against accidental connections and DNS leaks but is not a complete solution for anonymity against malware or compromised software.
+
+#### Hostname and MAC Address security risks
+
+Transparent Torification does not hide your hostname, MAC address, or other system-specific details from applications with sufficient privileges. For enhanced security, consider changing your hostname and MAC address before using the script.
+
+---
+
 ## Install
 
 ### Download:
@@ -45,6 +59,8 @@ Install them using your distribution's package manager. For example, on a Debian
 sudo apt-get update
 sudo apt-get install -y tor curl iptables ip6tables
 ```
+
+---
 
 ## Usage
 
@@ -79,17 +95,7 @@ You will enter a interactive shell, and you will be prompted to enter commands.
 
     clear:       Clears the console.
 
-## Security
-
-Read this section carefully before using ImposTOR.
-
-ImposTOR is produced independently from the Tor anonymity software and carries no guarantee from the Tor Project about its quality or suitability.
-
-Transparent Torification protects against accidental connections and DNS leaks but is not a complete solution for anonymity against malware or compromised software.
-
-#### Hostname and MAC Address security risks
-
-Transparent Torification does not hide your hostname, MAC address, or other system-specific details from applications with sufficient privileges. For enhanced security, consider changing your hostname and MAC address before using the script.
+---
 
 ## Credits
 
