@@ -70,7 +70,7 @@ Code snippet
 ```
 cd ImposTOR
 sudo chmod +x ./impostor.sh
-./impostor.sh
+sudo ./impostor.sh
 ``` 
 
 You will enter a interactive shell, and you will be prompted to enter commands.
