@@ -11,9 +11,9 @@ Cross-Distro Transparent Proxy through Tor
 
 ## About ImposTOR
 
-**ImposTOR** is a shell script that uses **iptables** and **ip6tables** to create a transparent proxy through the Tor Network.
-Unlike other tools, it is designed to be cross-distro, working on a wide range of Linux distributions.
-The program also includes features to check the status of the Tor service and your public IP address.
+**ImposTOR** is a shell script that uses **iptables** and **ip6tables** to create a transparent proxy through the Tor Network.<br>
+Unlike other tools, it is designed to be cross-distro, working on a wide range of Linux distributions.<br>
+The program also includes features to check the status of the Tor service and your public IP address.<br>
 
 With ImposTOR, you can redirect all system-wide traffic through the Tor Network.
 
