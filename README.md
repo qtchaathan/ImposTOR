@@ -1,5 +1,4 @@
-<p align="center">
-    <span style="color:#FF4500;">
+
 <pre>
 ██▓ ███▄ ▄███▓ ██▓███    ▒█████     ██████  █████████▓ ▒█████   ██▀███  
 ▓██▒ ▓██▒▀█▀ ██ ▒▓██░  ██▒ ▒██▒  ██▒▒ ██    ▒   ▓██▒▓▒ ▒██▒  ██▒ ▓██ ▒ ██▒
@@ -11,16 +10,14 @@
  ▒ ░░      ░   ░ ░       ░ ░ ░ ▒  ░  ░   ░    ░       ░ ░░ ▒     ░░   ░ 
  ░         ░                ░ ░        ░                ░ ░      ░     
 </pre>
-    </span>
-</p>
 
 <p align="center">
 Cross-Distro Transparent Proxy through Tor
 </p>
 
 <p align="center">
-<a href="https://github.com/yourusername/impostor/commits/main"><img src="https://img.shields.io/badge/version-1.1.2-blue"></a>
-<a href="https://github.com/yourusername/impostor/blob/main/LICENSE"><img src="https://img.shields.io/github/license/yourusername/impostor.svg"></a>
+<a href="https://github.com/qtchaathan/impostor/commits/main"><img src="https://img.shields.io/badge/version-1.1.2-blue"></a>
+<a href="https://github.com/qtchaathan/ImposTOR/blob/main/LICENSE"><img src="https://img.shields.io/github/license/qtchaathan/impostor.svg"></a>
 </p>
 
 ## About ImposTOR
@@ -44,58 +41,54 @@ For more information, please read the [Tor Project wiki](https://gitlab.torproje
 ### Download:
 
 ```term
-git clone [https://github.com/yourusername/impostor](https://github.com/yourusername/impostor)
+git clone https://github.com/qtchaathan/ImposTOR/
 ```
-Dependencies:
+### Dependencies:
 
 The script requires the following packages:
 
-    tor
-
-    curl
-
-    iptables
-
-    ip6tables
+    tor, curl, iptables, ip6tables
 
 Install them using your distribution's package manager. For example, on a Debian-based system:
-Code snippet
-
+```
 sudo apt-get update
 sudo apt-get install -y tor curl iptables ip6tables
+```
 
-Usage
-
-Commands:
+## Usage
 
 Run the script with sudo and no arguments to enter the interactive shell.
 Code snippet
 
-sudo ./scriptv1.1.2.sh
+```
+cd ImposTOR
+sudo chmod +x ./impostor.sh
+./impostor.sh
+``` 
 
-A banner will be displayed, and you will be prompted to enter commands.
+You will enter a interactive shell, and you will be prompted to enter commands.
 
-Commands list:
+#### Commands list:
 
-    start: Starts the transparent proxy and configures the firewall rules.
+    start:       Starts the transparent proxy and configures the firewall rules.
 
-    stop: Stops the proxy, restores the original firewall rules, and removes temporary configuration files.
+    stop:        Stops the proxy, restores the original firewall rules, and removes temporary configuration files.
 
-    restart: Restarts the Tor service to change your public IP address.
+    restart:     Restarts the Tor service to change your public IP address.
 
-    status: Checks the status of the Tor service and your public IP address.
+    status:      Checks the status of the Tor service and your public IP address.
 
-    initip: Sets the interval for automatic IP address changes.
+    initip:      Sets the interval for automatic IP address changes.
 
-    v: Displays the program version.
+    v:           Displays the program version and other info.
 
-    help: Shows the list of commands.
+    help:        Shows the list of commands.
 
-    exit: Exits the program.
+    exit:        Exits the program.
 
-    clear: Clears the console and displays the banner.
+    clear:       Clears the console.
 
-Security
+## Security
 
 Read this section carefully before using ImposTOR.
 
@@ -103,12 +96,11 @@ ImposTOR is produced independently from the Tor anonymity software and carries n
 
 Transparent Torification protects against accidental connections and DNS leaks but is not a complete solution for anonymity against malware or compromised software.
 
-Hostname and MAC Address security risks
+#### Hostname and MAC Address security risks
 
 Transparent Torification does not hide your hostname, MAC address, or other system-specific details from applications with sufficient privileges. For enhanced security, consider changing your hostname and MAC address before using the script.
 
-Credits
+## Credits
 
-    Inspired by the work on kalitorify and anonsurf.
-
-    The Tor Project and Whonix for their invaluable documentation.
+Inspired by the work on kalitorify and anonsurf.
+The Tor Project and Whonix for their invaluable documentation.
