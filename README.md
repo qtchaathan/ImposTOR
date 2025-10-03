@@ -69,8 +69,9 @@ Code snippet
 
 ```
 cd ImposTOR
-sudo chmod +x ./impostor.sh
-sudo ./impostor.sh
+sudo chmod +x ./installer.sh
+sudo ./installer.sh            #you will be prompted whether you want system wide installation or only for the active user and also if you want to remove the setup files
+impostor            #after a successful installation you can run impostor from the terminal from anywhere in the device
 ``` 
 
 You will enter a interactive shell, and you will be prompted to enter commands.
